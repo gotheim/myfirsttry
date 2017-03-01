@@ -1,0 +1,99 @@
+body {
+  background-image: url("http://zupimages.net/up/17/08/jief.jpg");
+  background-size: 1300px;
+  background-attachment: scroll;
+  background-position: top center;
+  background-repeat: no-repeat;
+  margin: 0;
+  color: #fff;
+  font-size: 12px;
+}
+
+.wraper {
+  width: 820px;
+  margin: auto;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.forum {
+  background: #fff;
+  position: relative;
+  box-shadow: 0 0 25px rgba(0,0,0,.5);
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.pa {
+  width: 650px;
+  margin: 100px auto 0;
+  background: #e27d90;
+  border-radius: 10px;
+  position: relative;
+}
+
+.logochat {
+  width: 150px;
+  position: absolute;
+  left: 240px;
+  top: -90px;
+}
+
+.pahead {
+  display: -webkit-flex;
+  display: flex;
+  border-bottom: 1px solid #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.pahead div {
+  width: 250px;
+  padding: 2px 0;
+}
+
+.pahead div:first-child {
+  text-align: right;
+}
+
+.pahead span {
+  display: block;
+  width: 150px;
+}
+
+.panews {
+  display: -webkit-flex;
+  display: flex;
+  background: pink;
+  width: 245px;
+  height: 50px;
+  margin: 5px 10px;
+}
+
+.panews>div:first-child {
+  width: 50px;
+  /*background: powderblue;*/
+  font-family: 'Dawning of a New Day', cursive;
+  font-size: 30px;
+  line-height: 0px;
+}
+
+.panews>div {
+  font-size: 30px;
+  margin: 0 2px;
+}
+
+.panews>div:nth-child(2){
+  font-family: 'Reenie Beanie', cursive;
+
+}
+.panews>div:nth-child(3){
+  font-family: 'Zeyada', cursive;
+
+}
+.panews>div:nth-child(4){
+  font-family: 'La Belle Aurore', cursive;
+
+}
+.panews>div:nth-child(5){
+  font-family: 'Kristi', cursive;
+}
