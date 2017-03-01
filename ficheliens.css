@@ -1,0 +1,130 @@
+.flgo {
+  background: #fff;
+  width: 550px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-align: justify;
+}
+
+.flgo-haut {
+  background: #9b2302;
+  padding: 10px;
+}
+
+.flgo-nom {
+  font-family: 'Russo One', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.flgo-info {
+  display: -webkit-flex;
+  display: flex;
+  height: 30px;
+}
+
+.flgo-info div {
+  width: 245px;
+  text-align: left;
+  padding: 5px 0 0 0;
+  color: #f5b7c3;
+}
+
+.flgo-info div:first-child {
+  text-align: right;
+}
+
+.flgo-titre {
+  display: block;
+  text-transform: uppercase;
+  font-family: 'Russo One', sans-serif;
+}
+
+.flgo-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 5px solid #9b2302;
+}
+
+.flgo-desc {
+  display: -webkit-flex;
+  display: flex;
+  margin: 25px 10px 0 10px;
+}
+
+.flgo-desc div {
+  background: #c8745d;
+  padding: 5px;
+  width: 140px;
+  height: 220px;
+  margin: 0 auto;
+  border: 10px solid #9b2302;
+  overflow: auto;
+}
+
+.flgo-desc div:nth-child(2){
+  overflow: hidden;
+}
+
+.flgo-desc div:nth-child(2) img {
+  margin: -5px;
+  width: 150px;
+}
+
+.flgo-liens {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 5px 11px;
+  text-align: center;
+}
+
+.flgo-liens>div {
+  background: #9b2302;
+  padding: 10px 5px;
+  width: 85px;
+  height: 110px;
+  margin: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.flgo-liens img {
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  margin-bottom: 5px;
+}
+
+.flgo-liens .hover {
+  background: #c8745d;
+  position: absolute;
+  top: 5px;
+  left: -85px;
+  width:75px;
+  height: 110px;
+  overflow: auto;
+  padding: 5px;
+  opacity: 0;
+  transition: 1.5s;
+}
+
+.flgo-liens>div:hover .hover {
+  transform: translate(90px, 0px);
+  opacity: 1;
+}
+
+.flgo-cred {
+  background: #9b2302;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 5px;
+}
